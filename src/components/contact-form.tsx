@@ -136,7 +136,7 @@ export function ContactForm() {
               <Select onValueChange={field.onChange} defaultValue={field.value} value={field.value}>
                 <FormControl>
                   <SelectTrigger>
-                    <SelectValue placeholder="Select a category" />
+                    <SelectValue placeholder="Type of Project" />
                   </SelectTrigger>
                 </FormControl>
                 <SelectContent>
@@ -158,7 +158,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Contact Number (Optional)</FormLabel>
               <FormControl>
-                <Input placeholder="+1 (555) 123-4567" {...field} />
+                <Input placeholder="Contact No." {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
